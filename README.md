@@ -1,5 +1,5 @@
 # EzySign API Documentation
-
+  * [Installation](#Installation)
   * [Authentication](#authentication)
     + [Client Authentication(WIP)](#client-authentication-wip-)
     + [User Authentication](#user-authentication)
@@ -9,6 +9,32 @@
   * [Callback URL](#callback-url)
   * [Errors](#errors)
   * [Usage](#usage)
+
+
+## Installation
+Add this to your composer.json
+```json
+{
+    // other properties
+    "require": {
+        "ezysign/phpsdk":"dev-master",
+        "guzzlehttp/guzzle": "^7.2",
+        "firebase/php-jwt": "dev-master"
+    },
+    "repositories":[
+        {
+            "type": "vcs",
+            "url": "git@github.com:ezysign/ezysign-php-sdk.git"
+        }
+    ]
+}
+
+```
+and run follow
+```bash
+composer require ezysign/phpsdk:dev-master
+```
+```
 ## Authentication
 
 EzySign api requires two steps of authentication.
