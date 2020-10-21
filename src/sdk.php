@@ -17,8 +17,8 @@ use EzySignSdk\Helper;
 
 
 define("ezysign_env", array(
-    "PRODUCTION" => "https://api.ezysign.cc",
-    "SANDBOX" => "https://dev-api.ezysign.cc",
+    "PRODUCTION" => "https://public.ezysign.cc",
+    "SANDBOX" => "https://dev-public.ezysign.cc",
     "LOCAL" => "http://127.0.0.1:4006")
     , true);
 

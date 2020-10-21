@@ -1,5 +1,7 @@
-# EzySign API Documentation
+# EzySign-php-sdk API Documentation 
+[![Build Status](https://travis-ci.org/ezysign/ezysign-php-sdk.svg?branch=master)](https://travis-ci.org/ezysign/ezysign-php-sdk)
   * [Installation](#Installation)
+  * [Environment](#Environment)
   * [Authentication](#authentication)
     + [Client Authentication(WIP)](#client-authentication-wip-)
     + [User Authentication](#user-authentication)
@@ -37,7 +39,13 @@ composer require ezysign/phpsdk:dev-master
 
 ## Environment 
 
-Connection to ezysign api will be using environment.
+Connection to ezysign api will be switched by environment variable.
+```ini
+EZY_SIGN_ENV=SANDBOX will point to SANDBOX environment
+
+EZY_SIGN_ENV=PRODUCTION will point to PRODUCTION environment
+
+```
 
 ## Authentication
 
