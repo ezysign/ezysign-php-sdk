@@ -7,10 +7,12 @@ require_once "entity.php";
 require_once "helper.php";
 require_once "http_client.php";
 require_once "sign_document.php";
+require_once "i_sdk.php";
 
 
 
 use EzySignSdk\EzySignHttpClient;
+use EzySignSdk\EzySignSdkInterface;
 use EzySignSdk\Helper;
 
 
@@ -20,7 +22,7 @@ define("ezysign_env", array(
     "LOCAL" => "http://127.0.0.1:4006")
     , true);
 
-class EzySign
+class EzySign implements EzySignSdkInterface
 {
     // Properties
     public $http_client;
