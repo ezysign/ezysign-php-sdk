@@ -1,5 +1,14 @@
 # EzySign API Documentation
 
+  * [Authentication](#authentication)
+    + [Client Authentication(WIP)](#client-authentication-wip-)
+    + [User Authentication](#user-authentication)
+  * [Templates](#templates)
+  * [Document](#document)
+  * [Sending Document](#sending-document)
+  * [Callback URL](#callback-url)
+  * [Errors](#errors)
+  * [Final Result](#final-result)
 ## Authentication
 
 EzySign api requires two steps of authentication.
