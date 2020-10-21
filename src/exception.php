@@ -1,6 +1,6 @@
 <?php 
 namespace EzySignSdk;
-
+use Exception;
 class EzySignException extends Exception
 {
     

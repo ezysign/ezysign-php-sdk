@@ -35,6 +35,10 @@ and run follow
 composer require ezysign/phpsdk:dev-master
 ```
 
+## Environment 
+
+Connection to ezysign api will be using environment.
+
 ## Authentication
 
 EzySign api requires two steps of authentication.

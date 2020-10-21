@@ -41,8 +41,8 @@ $signDoc->set_document_name("Hello.pdf");
 $recipients = $signDoc->generate_recpients($dec);
 $mapping = array('winhtaikaung76@gmail.com' => [1, 3], 'winhtaikaung28@hotmail.com' => [0, 2], 'win@ezysign.cc' => [4]);
 $payload = $signDoc->get_signdocument_payload($recipients, $mapping);
-$signDocument=$ezysign->post_document($payload);
-print_r(json_encode($signDocument));
+// $signDocument=$ezysign->post_document($payload);
+print_r(json_encode($payload));
 // print_r(json_encode($ezysign->get_document('47df455d-8c2b-4d97-9980-db8d51583ff9')));
 
 ?>

@@ -1,6 +1,7 @@
 <?php
 namespace EzySignSdk;
 require_once "uuid.php";
+require_once "exception.php";
 
 
 use EzySignSdk\EzySignException;
