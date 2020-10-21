@@ -8,7 +8,7 @@
   * [Sending Document](#sending-document)
   * [Callback URL](#callback-url)
   * [Errors](#errors)
-  * [Final Result](#final-result)
+  * [Usage](#usage)
 ## Authentication
 
 EzySign api requires two steps of authentication.
@@ -111,7 +111,7 @@ This error will be raised when the recipient field mapping is exceeded than avai
 **EzySignException("More than one Recipients were assigned to same field.Please check recipientsfieldmapping Index");**
 This error will be raised if the same fields were assigned by more than one recipient.
 
-## Final Result
+## Usage
 ```php
 use EzySignSdk\EzySign;
 use EzySignSdk\SignDocument;
