@@ -34,7 +34,7 @@ and run follow
 ```bash
 composer require ezysign/phpsdk:dev-master
 ```
-```
+
 ## Authentication
 
 EzySign api requires two steps of authentication.
